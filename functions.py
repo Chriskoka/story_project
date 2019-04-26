@@ -37,7 +37,7 @@ def ready():
         print("Since you are not ready,  the game will now close.")
         exit()
         
-def intro():
+def intro(): #Start of the game
     print("You are a tourist and you have gotten lost. You were walking on a trail but lost it.")
     print("While wandering, you come across a cave and a trail, but it doesn't look like the trail from earlier.")
     ichoice = int(input("Do you go into the cave? Or do you take the new trail? (Type '1' for the cave or '2' for the trail) : "))

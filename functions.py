@@ -155,5 +155,4 @@ def restart():
         greeting()
     if (game_restart == "no"):
         quit()
-        
-greeting()
+
